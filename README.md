@@ -16,11 +16,14 @@ https://github.com/artvalencio/cami-python).
 -----------------------------------------------------------------------------
 Installation:
 
-Open the terminal (Unix) or command prompt (Windows)
+If you have git and pip installed in your computer, the easiest way (and which
+automatically handles the installation of the requirements) is:
 
-Run: pip3 install git+https://github.com/artvalencio/dynamic-connect
+* Open the terminal (Unix) or command prompt (Windows)
 
-Now you can import the package in Python 3 using: import dynamic_connect
+* Run: pip3 install git+https://github.com/artvalencio/dynamic-connect
+
+* Now you can import the package in Python 3 using: import dynamic_connect
 
 -----------------------------------------------------------------------------
 
