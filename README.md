@@ -1,29 +1,33 @@
-# Dynamic Connect: Python package for building dynamic functional connectome from EEG
+# Dynamic Connect: Python-based GUI for assessment of cortical association from EEG using information-theory measures
 
-This package provides functions for building the dynamical functional connectome from 
-an EEG time-series, using either correlation or information theory metrics
+This software creates a Python-based GUI with functions for building the functional 
+connectome and dynamic functional connectome from an EEG time-series, using either
+correlation or information theory metrics
 
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
 
 Requirements:
 
-This package requires previous installation of Python>=3.6, numpy, pandas, 
-seaborn, mne and cami-python (the latter of which can be found at 
-https://github.com/artvalencio/cami-python).
+This package requires previous installation of ffmpeg, Python>=3.6, numpy, pandas, 
+seaborn, mne, mne-connectivity and cami-python
+
+cami-python can be found at https://github.com/artvalencio/cami-python.
+ffmpeg can be found at https://www.ffmpeg.org/download.html.
 
 -----------------------------------------------------------------------------
 -----------------------------------------------------------------------------
 Installation:
 
-If you have git and pip installed in your computer, the easiest way (and which
-automatically handles the installation of the requirements) is:
+* Install ffmpeg
 
-* Open the terminal (Unix) or command prompt (Windows)
+* Install Python
 
-* Run: pip3 install git+https://github.com/artvalencio/dynamic-connect
+* Install pip (see how here: https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)
 
-* Now you can import the package in Python 3 using: import dynamic_connect
+* Install all other requirements using pip
+
+* Run the code
 
 -----------------------------------------------------------------------------
 
@@ -45,9 +49,9 @@ Acknowledgements: Arthur Valencio is supported by the FAPESP grant 2018/09900-8 
 
 Licence text:
 
-    Dynamic Connect: Python package for building dynamic functional connectome from EEG
+    EEG Causality Tools: Python-based GUI for assessment of cortical association from EEG using information-theory measures
     
-    Copyright (C) 2021  Arthur Valencio
+    Copyright (C) 2022  Arthur Valencio
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
